@@ -1,0 +1,48 @@
+.table {
+  width: 100%;
+  border-spacing: 0;
+  position: relative;
+}
+
+.table thead {
+  position: sticky;
+  background-color: #70c0f5;
+  top: 0;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #F2F2F2;
+}
+
+.table th,
+.table td {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 17px;
+  color: black;
+  margin: 0;
+  border: 1px solid #dee2e6;
+}
+
+.search {
+  -webkit-appearance: none;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  width: 100%;
+  max-width: 100%;
+  background: #ffffff;
+}
+
+.sortable {
+  cursor: pointer;
+}
+
+.table th {
+  font-weight: bold;
+  color: #ffffff;
+}
