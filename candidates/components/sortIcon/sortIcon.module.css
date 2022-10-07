@@ -1,0 +1,19 @@
+
+.sortIcon {
+  background-color: transparent;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: #ffffff;
+  transition: transform 0.05s ease-out;
+}
+
+.sortIcon svg {
+  width: 10px;
+}
+
+.sortReverse {
+  transform: rotate(180deg);
+}
