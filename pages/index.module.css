@@ -1,0 +1,21 @@
+.container {
+  padding: 0 2rem;
+}
+
+.tableWrapper {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  position: relative;
+}
+
+.errorContainer {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
